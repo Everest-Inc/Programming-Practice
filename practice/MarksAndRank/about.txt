@@ -1,0 +1,29 @@
+Given the name, marks in three subjects i.e. Physics, Chemistry and Mathematics of 3 students, we need to calculate the percentage, 
+division and rank, assuming that the total marks for each subject is 100 and then print the Name, Percentage, Division and Rank of the 
+in accending order of rank.
+
+Example:
+Input:
+  Abc
+  80 80 80
+  Bcd
+  40 40 40
+  Def
+  70 70 70
+Output:
+  Name: Abc
+  Percentage: 80.0
+  Division: A
+  Rank: 1
+  
+  Name: Def
+  Percentage: 70.0
+  Division: B
+  Rank: 2
+  
+  Name: Bcd
+  Percentage: 40.0
+  Division: D
+  Rank: 3
+ 
+ Note: You can use your own logic while calculating the division
