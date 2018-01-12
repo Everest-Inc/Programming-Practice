@@ -1,0 +1,17 @@
+Given an array of 'n' numbers not exceeding range 'max' (inclusively), we need to print the distinct numbers in that array.
+
+Input:
+  1. 'max' (which is the maximum value a number can have in the array)
+  2. 'n' unknown numbers within range 'max' (inclusively)
+
+Note: 'max' <= 100
+
+Output:
+  'n' space separated distinct numbers
+  
+Example:
+  Input:
+    Enter max: 10
+    Numbers: 1 2 3 0 1 2 3 5 10 10 9 1 2 8 4
+  Output:
+    0 1 2 3 4 5 8 9 10
