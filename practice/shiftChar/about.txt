@@ -1,0 +1,14 @@
+Given a string 's' and a number 'n', you need to right shift the characters of the string by 'n' times.
+
+Example:
+  Input:
+    String s: apple
+    int n: 2
+  Output:
+    Result: leapp
+
+Other Examples:
+  String s: computer
+  int n: 3
+  
+  Result: tercompu
