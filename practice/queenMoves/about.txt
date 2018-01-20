@@ -1,0 +1,9 @@
+Given the position of the queen in a standard chess board i.e. 8x8 size, we need to find the total number of moves the queen can take.
+The position of queen is taken as (x,y) and the size of the board starts from 1x1 to 8x8.
+
+Example:
+	Input: 3 2
+	Output: 23
+	
+	Input: 4 5
+	Output: 27
