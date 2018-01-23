@@ -1,0 +1,9 @@
+An String object will store the returned values from Zodiac class in MainActivity.java
+
+In MainActivity.java
+onClick Function{
+	String result = Zodiac.findMyZodiac(year, month, day);
+}
+
+In Zodiac.java
+return "Zodiac_Sign";
