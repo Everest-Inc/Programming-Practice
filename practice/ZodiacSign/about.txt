@@ -1,0 +1,2 @@
+Take the date of birth of an user and display his/her zodiac.
+Note: All the possible cases should be satisfied, including validity of given dates.
