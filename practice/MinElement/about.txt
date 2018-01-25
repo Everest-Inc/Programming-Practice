@@ -1,0 +1,36 @@
+given an array in sorted order, with or without any rotations, you need to return the minumum element
+
+Example: 
+	arr[] = {5,6,7,8,9,1,2,3,4} --> return 1
+	arr[] = {6,7,8,9,10,13,14,16,18} --> return 6
+	arr[] = {45, 47, 49, 53, 55, 57, 70, 78, 91, 100, 101, 102, 34, 36, 39, 41, 43} --> return 34
+	
+	
+You need to write a function findMin() that returns the minimum element.
+Please copy this layout and then complete the function:
+
+Note: please make sure to change the class name so it don't contradict with existing classes of same name.
+	  make sure to write "By: YOUR_NAME" in the beginning of your file and comment it out 
+
+public class MinElement{
+	
+	private int findMin(int[] arr){
+		// Your code goes here
+	}
+
+public static void main(String[] args){
+		MinElement me = new MinElement();
+		int[] arr = {100, 101, 102, 103, 104, 105, 106, 107, 108, 98, 99};
+		int[] arr1 = {9,10,11,12,13,14,15,16,17,18,3,4,5,6,7,8};
+		int[] arr2 = {5,6,7,8,9,10,13,14,16,18};
+		int[] arr3 = {45, 47, 49, 53, 55, 57, 70, 78, 91, 100, 101, 102, 34, 36, 39, 41, 43};
+		int min = me.findMin(arr);
+		int min1 = me.findMin(arr1);
+		int min2 = me.findMin(arr2);
+		int min3 = me.findMin(arr3);
+		System.out.println("Minimum element: "+min);
+		System.out.println("Minimum element: "+min1);
+		System.out.println("Minimum element: "+min2);
+		System.out.println("Minimum element: "+min3);
+	}
+}
