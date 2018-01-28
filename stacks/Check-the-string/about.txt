@@ -1,0 +1,11 @@
+there is a bot which knows only about the string "ab" or "". It can insert that string i.e. "ab" or "" in any place between ab. 
+We need to find out that whether a string containing only 'a' and 'b' is made by that bot.
+Eg: ab -> true
+	  aabb -> true
+    
+    Explaination: initially, there is ab, now inserting next "ab" in between existing ab, we get "aabb"
+    
+    Similarly, "aababb", "abaabb", "aabaabbb" are also made by the bot is these strings are made by randomly inserting "ab" in resulting 
+    strings.
+
+But, strings like "aaab", "abba", "bbabba" are not made by the bot.
