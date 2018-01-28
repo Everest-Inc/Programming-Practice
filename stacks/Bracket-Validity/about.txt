@@ -1,0 +1,9 @@
+to check whether a given set of string cosisting of '(', ')', '{', '}', '[', ']' are valid expressions or not.
+	Example: 
+	{([()])} --> Valid
+	([))(] --> Invalid
+  ([) --> Invalid
+  (([[))]] --> Invalid
+  (([[]])) --> Valid
+  
+  The string is valid if and only if there is valid use of all the braces i.e. starting and closing of braces is correctly used.
